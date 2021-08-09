@@ -1,0 +1,77 @@
+\babel@toc {romanian}{}
+\contentsline {chapter}{\numberline {1}Introducere}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Internet of things}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Contextul de realizare}{5}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Prezentarea sistemelor similare}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Torelectric}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Honeywell}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Nest}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Ecobee}{8}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Abordare comparativ\IeC {\u a} a sistemelor prezentate}{9}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Compara\IeC {{\textcommabelow t}}ie cu sistemul prezentat \IeC {\^\i }n aceast\IeC {\u a} lucrare}{10}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Fundamente teoretice}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Medii de dezvoltare}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Arduino IDE}{11}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}PyCharm}{12}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Limbaje de programare}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Python}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}C++}{12}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}HTML}{13}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Platforme cloud}{13}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Heroku}{13}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Baza de date \IeC {\^\i }n timp real Firebase}{13}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Framework-uri}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Flask}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Bootstrap}{13}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Componente utilizate}{14}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}ESP8266}{14}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Plac\IeC {\u a} de baz\IeC {\u a} pentru NodeMCU}{14}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Arduino Uno}{14}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}LCD 1602}{14}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Senzor DHT11}{15}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Modul radio frecven\IeC {{\textcommabelow t}}\IeC {\u a}}{15}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}Releu}{15}{subsection.3.5.7}%
+\contentsline {subsection}{\numberline {3.5.8}Electrovalv\IeC {\u a}}{16}{subsection.3.5.8}%
+\contentsline {subsection}{\numberline {3.5.9}Pomp\IeC {\u a} de ap\IeC {\u a}}{16}{subsection.3.5.9}%
+\contentsline {subsection}{\numberline {3.5.10}Push buton}{16}{subsection.3.5.10}%
+\contentsline {subsection}{\numberline {3.5.11}Condensator}{16}{subsection.3.5.11}%
+\contentsline {subsection}{\numberline {3.5.12}Rezisten\IeC {{\textcommabelow t}}\IeC {\u a}}{16}{subsection.3.5.12}%
+\contentsline {subsection}{\numberline {3.5.13}Circuit integrat Schmitt-Trigger}{16}{subsection.3.5.13}%
+\contentsline {subsection}{\numberline {3.5.14}Diod\IeC {\u a}}{16}{subsection.3.5.14}%
+\contentsline {section}{\numberline {3.6}Filtrarea semnalelor}{17}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Histereza}{20}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Dezvoltarea solu\IeC {{\textcommabelow t}}iei}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Specificarea cerin\IeC {{\textcommabelow t}}elor}{21}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Cerin\IeC {{\textcommabelow t}}e func\IeC {{\textcommabelow t}}ionale pentru partea hardware}{21}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Cerin\IeC {{\textcommabelow t}}e nefunc\IeC {{\textcommabelow t}}ionale pentru partea hardware}{22}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Cerin\IeC {{\textcommabelow t}}ele func\IeC {{\textcommabelow t}}ionale ale aplica\IeC {{\textcommabelow t}}iei web}{23}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Cerin\IeC {{\textcommabelow t}}e nefunc\IeC {{\textcommabelow t}}ionale ale aplica\IeC {{\textcommabelow t}}iei web}{24}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Arhitectura sistemului}{25}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Modulul senzor}{26}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Modulul de control}{28}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Proiectare detaliat\IeC {\u a}}{29}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Diagram\IeC {\u a} de clase}{29}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Diagrame de secven\IeC {{\textcommabelow t}}\IeC {\u a}}{30}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Structur\IeC {\u a} software}{34}{subsection.4.3.3}%
+\contentsline {subsubsection}{Structura aplica\IeC {{\textcommabelow t}}iei web}{34}{section*.2}%
+\contentsline {subsubsection}{Structur\IeC {\u a} cod aferent componentei electronice}{34}{section*.3}%
+\contentsline {section}{\numberline {4.4}Implementarea solu\IeC {{\textcommabelow t}}iei}{34}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Programare modul ESP8266}{35}{subsection.4.4.1}%
+\contentsline {subsubsection}{Ini\IeC {{\textcommabelow t}}ializ\IeC {\u a}ri}{35}{section*.4}%
+\contentsline {subsubsection}{\IeC {\^I}ntreruperile \IeC {{\textcommabelow s}}i tratarea acestora}{36}{section*.5}%
+\contentsline {subsubsection}{Mod de operare presetat de utilizator}{38}{section*.6}%
+\contentsline {subsubsection}{Mod clasic de operare}{40}{section*.7}%
+\contentsline {subsection}{\numberline {4.4.2}Programare pl\IeC {\u a}cu\IeC {{\textcommabelow t}}\IeC {\u a} Arduino}{40}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Realizarea aplica\IeC {{\textcommabelow t}}iei web}{42}{subsection.4.4.3}%
+\contentsline {subsubsection}{Secven\IeC {{\textcommabelow t}}e de cod esen\IeC {{\textcommabelow t}}iale din cadrul implement\IeC {\u a}rii aplica\IeC {{\textcommabelow t}}iei web}{42}{section*.8}%
+\contentsline {subsection}{\numberline {4.4.4}Probleme \IeC {\^\i }nt\IeC {\^a}mpinate \IeC {\^\i }n timpul realiz\IeC {\u a}rii proiectului}{47}{subsection.4.4.4}%
+\contentsline {subsubsection}{For\IeC {{\textcommabelow t}}a contraelectromotoare a bobinei}{47}{section*.9}%
+\contentsline {subsubsection}{Vibra\IeC {{\textcommabelow t}}iile contactelor metalice ale \IeC {\^\i }ntrerup\IeC {\u a}toarelor}{47}{section*.10}%
+\contentsline {subsubsection}{Amorsarea instala\IeC {{\textcommabelow t}}iei cu ap\IeC {\u a}}{47}{section*.11}%
+\contentsline {subsubsection}{Conflict de date ap\IeC {\u a}rut la transferul prin radio - frecven\IeC {{\textcommabelow t}}\IeC {\u a}}{48}{section*.12}%
+\contentsline {section}{\numberline {4.5}Testarea solu\IeC {{\textcommabelow t}}iei}{48}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Ghidul utilizatorului}{51}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Interfa\IeC {{\textcommabelow t}}a cu utilizatorul}{51}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Descriere \IeC {{\textcommabelow s}}i utilizare sistem}{55}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Optimizare}{56}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Concluzii \IeC {{\textcommabelow s}}i direc\IeC {{\textcommabelow t}}ii de dezvoltare}{58}{chapter.6}%

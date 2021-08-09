@@ -1,0 +1,86 @@
+\documentclass[a4paper,12pt,oneside,openright]{book}
+
+\usepackage[utf8x]{inputenc}
+\PrerenderUnicode{ăîșțâĂÎÂȘȚ„”}
+ 
+\usepackage{bookman}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{fancyhdr} 
+\usepackage{color}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage{ifthen}
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{mathptmx}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\usepackage{textcomp}
+\usepackage{wrapfig}
+\usepackage[romanian]{babel}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+ \usepackage{setspace}
+
+\newcommand*{\noaddvspace}{\renewcommand*{\addvspace}[1]{}}
+\addtocontents{lof}{\protect\noaddvspace}
+
+\graphicspath{ {./fig/} }
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+
+\lstset{frame=tb,
+  language=C++,
+  aboveskip=0mm,
+  belowskip=0mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\scriptsize\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\pagestyle{fancy}
+\fancyhead[RE]{\footnotesize{\leftmark}}
+\fancyhead[RO]{\footnotesize{\thepage}}
+\fancyhead[LO]{\footnotesize{\rightmark}}
+\fancyhead[LE]{\footnotesize{\thepage}}
+\fancyfoot{}
+
+\renewcommand{\chaptername}{Capitolul}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabelul}
+\renewcommand\listtablename{Lista tabelelor}
+\renewcommand\listfigurename{Lista figurilor}
+\renewcommand\contentsname{Cuprins}
+\renewcommand\bibname{Bibliografie}
+ 
+\begin{document}
+
+\input{titlepage.tex}
+
+\setcounter{page}{1}
+\tableofcontents
+\input{introduction.tex}
+\input{state of the art.tex} 
+\input{fundamente teoretice.tex}
+\input{dezvoltarea solutiei.tex}
+\input{interfata utilizator.tex}
+\input{concluzii.tex}
+
+\listoffigures
+
+\bibliographystyle{unsrt}
+\bibliography{bibfile.bib}
+
+\end{document}
